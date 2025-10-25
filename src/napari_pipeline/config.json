@@ -1,0 +1,926 @@
+{
+    "results": {
+        "enabled": false,
+        "path": "/home/user/napari_pipeline/results"
+    },
+    "modules": {
+        "DynamicEnhanceOrSuppressFeatures": {
+            "cck": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 15.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "fos": {
+                "disabled": false,
+                "method": "Enhance",
+                "object_size": 50,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "il6r": {
+                "disabled": false,
+                "method": "Enhance",
+                "object_size": 75.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "glp1r": {
+                "disabled": false,
+                "method": "Enhance",
+                "object_size": 50,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "adcyap1": {
+                "disabled": true,
+                "method": "Suppress",
+                "object_size": 3,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "dbh": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 15,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "th": {
+                "disabled": false,
+                "method": "Enhance",
+                "object_size": 50,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "gfral": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 15,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "tdt": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 10.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "cgrp": {
+                "disabled": true,
+                "method": "Suppress",
+                "object_size": 15.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "arppbn": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 10.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "snpr": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 5.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "tdr": {
+                "disabled": false,
+                "method": "Enhance",
+                "object_size": 50.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "vglut": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 3.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            },
+            "ctb": {
+                "disabled": false,
+                "method": "Suppress",
+                "object_size": 5.0,
+                "enhance_method": "Speckles",
+                "hole_size": [
+                    1,
+                    10
+                ],
+                "smoothing": 2.0,
+                "angle": 0.0,
+                "decay": 0.95,
+                "neurite_choice": "Tubeness",
+                "speckle_accuracy": "Slow",
+                "wants_rescale": false
+            }
+        },
+        "DynamicIdentifyPrimaryObjects": {
+            "dapi": {
+                "size_range": [
+                    15,
+                    1000
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Intensity",
+                "watershed_method": "Propagate",
+                "smoothing_filter_size": 100,
+                "maxima_suppression_size": 7.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Adaptive",
+                "threshold.global_operation": "Minimum Cross-Entropy",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.8,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 0.0,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "cck": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.8,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "fos": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 1.0,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "il6r": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.85,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "glp1r": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.8,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "adcyap1": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.4,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "dbh": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.8,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "th": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.8,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "gfral": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.8,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "tdt": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Intensity",
+                "watershed_method": "Propagate",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Adaptive",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 2.0,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 512,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "cgrp": {
+                "size_range": [
+                    25,
+                    250
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 1.4,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 2047,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "arppbn": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 1.4,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 127,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "snpr": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Adaptive",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 2.0,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 1023,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "tdr": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.7,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "vglut": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 0.85,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            },
+            "ctb": {
+                "size_range": [
+                    1,
+                    50
+                ],
+                "exclude_size": false,
+                "exclude_border_objects": false,
+                "unclump_method": "Shape",
+                "watershed_method": "Shape",
+                "smoothing_filter_size": 10,
+                "maxima_suppression_size": 15.0,
+                "low_res_maxima": false,
+                "fill_holes": "After both thresholding and declumping",
+                "automatic_smoothing": true,
+                "automatic_suppression": true,
+                "limit_choice": "Continue",
+                "maximum_object_count": 500,
+                "use_advanced": true,
+                "threshold.threshold_scope": "Global",
+                "threshold.global_operation": "Otsu",
+                "threshold.threshold_smoothing_scale": 1.3488,
+                "threshold.threshold_correction_factor": 1.0,
+                "threshold.threshold_range": [
+                    0.0,
+                    1.0
+                ],
+                "threshold.manual_threshold": 1e-05,
+                "threshold.thresholding_measurement": "None",
+                "threshold.two_class_otsu": "Two classes",
+                "threshold.log_transform": false,
+                "threshold.assign_middle_to_foreground": "Foreground",
+                "threshold.adaptive_window_size": 255,
+                "threshold.lower_outlier_fraction": 0.05,
+                "threshold.upper_outlier_fraction": 0.05,
+                "threshold.averaging_method": "Mean",
+                "threshold.variance_method": "Standard deviation",
+                "threshold.number_of_deviations": 2.0,
+                "threshold.local_operation": "Otsu"
+            }
+        },
+        "ObjectCount": {
+            "dapi": {
+                "object_count": 3
+            },
+            "cck": {
+                "object_count": 3
+            },
+            "fos": {
+                "object_count": 3
+            },
+            "il6r": {
+                "object_count": 3
+            },
+            "glp1r": {
+                "object_count": 3
+            },
+            "adcyap1": {
+                "object_count": 3
+            },
+            "dbh": {
+                "object_count": 3
+            },
+            "th": {
+                "object_count": 3
+            },
+            "gfral": {
+                "object_count": 3
+            },
+            "tdt": {
+                "object_count": 3
+            },
+            "cgrp": {
+                "object_count": 3
+            },
+            "arppbn": {
+                "object_count": 3
+            },
+            "snpr": {
+                "object_count": 3
+            },
+            "tdr": {
+                "object_count": 3
+            },
+            "vglut": {
+                "object_count": 3
+            },
+            "ctb": {
+                "object_count": 3
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+name: napari-pipeline
+display_name: CellProfiler Pipeline
+contributions:
+  commands:
+    - id: napari-pipeline.make_qwidget
+      python_name: napari_pipeline._widget:PipelineWidget
+      title: CellProfiler Pipeline
+  widgets:
+    - command: napari-pipeline.make_qwidget
+      display_name: CellProfiler Pipeline
